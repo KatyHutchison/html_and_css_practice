@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.row-item {
+    flex-grow: 1;
+}

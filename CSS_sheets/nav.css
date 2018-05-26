@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-block {
+    background-color: black;
+    display: flex;
+}
+

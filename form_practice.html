@@ -1,0 +1,44 @@
+<!-This is a comment in html->
+<!-
+Task:
+Create a html form that has the following:
+
+an action of "/index.php" and submits data using a POST request
+
+an input text field with a name of input_1
+a dropdown with a name of input_2 that has the following options (the values if the options should be the same as their name:
+    option 1 
+    option 2
+    option 3
+    option 4
+a radio select field with the options of yes and no with no checked as default 
+a submit button
+
+This link will help https://www.w3schools.com/html/html_forms.asp
+
+->
+
+<h1>I AM LEARNING</h1><br>
+<form action="/index.php" method=POST><br>
+
+    <label for="label1">What's yo name?</label><br>
+    <input type="text" name=input_1 id="label1"><br>
+
+    <label for="Sandwiches">Sandwiches</label><br>
+    <select name="option 1" id="Sandwiches">
+        <option value="option 1">option 1</option>
+        <option value="option 2">option 2</option>
+        <option value="option 3">option 3</option>
+        <option value="option 4">option 4</option>
+    </select> <br>
+
+    <label for="label2">Do you like sunny days?</label><br>
+    <input type="radio" name="jigga what?" value="yes" id="label2">Yes<br>
+    <input type="radio" name="jigga what?" value="no" checked>No<br>
+    
+    <label for="label4">Checkboxes R Us</label><br>
+    <input type="checkbox" name="checkbox" value="yes">I like checkboxes<br>
+    <input type="checkbox" name="checkbox" value="no">I don't like checkboxes<br>
+    <button type="submit" value=Submit id="label3">Submit</button><br>
+</form>
+</div>
