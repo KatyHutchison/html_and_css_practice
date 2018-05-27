@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 1.5em 2em;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.6em;
+}
+
+.header-gradient {
+    background-image: linear-gradient(to right, #a25b5b, #692e4c);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
